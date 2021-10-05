@@ -1,0 +1,52 @@
+{
+  "user": [
+    {
+      "name": "Andres",
+      "lastname": "Lopez",
+      "email": "anfelov@gmail.com",
+      "telephone": "3103284640",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "Sergio",
+      "lastname": "Luquez",
+      "email": "sergio.luquez@hotmail.com",
+      "telephone": "3101231234",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "test",
+      "lastname": "test",
+      "email": "test@test.com",
+      "telephone": "1234",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "name": "Pepito",
+      "lastname": "Perez",
+      "email": "pepoperez@gmail.com",
+      "telephone": "123456",
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "name": "",
+      "lastname": "",
+      "email": "",
+      "telephone": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "lastname": "",
+      "email": "",
+      "telephone": "",
+      "password": "",
+      "id": 6
+    }
+  ]
+}
