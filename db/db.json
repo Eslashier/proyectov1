@@ -48,5 +48,27 @@
       "password": "",
       "id": 6
     }
+  ],
+  "projects": [
+    {
+      "userid": 1,
+      "projecti": "test20",
+      "pname": "test20",
+      "summary": "test20",
+      "leader": "test20",
+      "time": "test20",
+      "deadline": "1995-01-03",
+      "id": 6
+    },
+    {
+      "userid": 3,
+      "projecti": "prueba2",
+      "pname": "prueba",
+      "summary": "prueba",
+      "leader": "prueba",
+      "time": "prueba",
+      "deadline": "2000-01-01",
+      "id": 7
+    }
   ]
 }
