@@ -65,9 +65,8 @@
 import axios   from 'axios'
 export default ({
   name:'Register',
-  data() 
-  {
-       return{
+  data(){
+    return{
       name:'',
       lastname:'',
       email:'',

@@ -236,7 +236,6 @@ span.rgt {
 }
 
 
-
 .copyright {
 	text-align: center;
 	padding-top: 5px;

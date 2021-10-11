@@ -13,37 +13,48 @@ const routes = [
   {
     path: '/about',
     name: 'About',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: () => import(/* webpackChunkName: "Acerca de nosotros" */ '../views/About.vue')
   },
   {
     path: '/contact',
     name: 'Contact',
-    component: () => import(/* webpackChunkName: "contact" */ '../views/Contact.vue')
+    component: () => import(/* webpackChunkName: "Contactenos" */ '../views/Contact.vue')
   },
   {
     path: '/proyectos',
     name: 'Proyectos',
-    component: () => import(/* webpackChunkName: "proyectos" */ '../views/Proyectos.vue')
+    component: () => import(/* webpackChunkName: "Proyectos" */ '../views/Proyectos.vue')
   },
   {
     path: '/login',
     name: 'Login',
-    component: () => import(/* webpackChunkName: "login" */ '../views/Login.vue')
+    component: () => import(/* webpackChunkName: "Iniciar sesion" */ '../views/Login.vue')
   },
   {
     path: '/Recuperarcontrasena',
     name: 'Recuperar Contraseña',
-    component: () => import(/* webpackChunkName: "login" */ '../views/Recovery.vue')
+    component: () => import(/* webpackChunkName: "Recuperar Contraseña" */ '../views/Recovery.vue')
   },
   {
     path: '/Register',
     name: 'Registro',
-    component: () => import(/* webpackChunkName: "login" */ '../views/Register.vue')
+    component: () => import(/* webpackChunkName: "Registro" */ '../views/Register.vue')
   },
   {
     path: '/Main',
     name: 'Main',
     component: () => import(/* webpackChunkName: "Main" */ '../views/Main.vue'),
+  },
+  {
+    path: '/Add',
+    name: 'Add',
+    component: () => import(/* webpackChunkName: "Add" */ '../views/Add.vue'),
+  }
+  ,
+  {
+    path: '/Edit/:id',
+    name: 'Edit',
+    component: () => import(/* webpackChunkName: "Edit" */ '../views/Edit.vue'),
   }
 ]
 
