@@ -39,7 +39,7 @@
                   <input type="checkbox" checked="checked" name="remember" required> Aceptar terminos y condiciones
                   </label>
 						
-                  <button v-on:click="signup">Iniciar sesión</button>
+                  <button v-on:click="signup">Registrarse</button>
                 </div>              
             </div> 
           </form>
@@ -77,10 +77,7 @@ export default ({
   methods:{
     async signup()
     {
-      if(this.name === "" || this.lastname === "" || this.email === "" || this.telephone === "" || this.password === ""){  
-      alert("Complete todos los datos");}
-      else{
-      let result = await axios.post("http://localhost:3000/user",{
+      let result = await axios.post("http://18.212.204.173:3000/user",{
         name:this.name,
         lastname:this.lastname,
         email:this.email,
@@ -94,13 +91,11 @@ export default ({
         alert("Registro Completo");
         this.$router.push({name:'Login'})
       }
-      }
+
     }
     }
   })
 </script>
-
-
 
 <style scoped>
 .button {

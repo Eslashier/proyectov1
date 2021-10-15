@@ -81,7 +81,7 @@ export default({
       if(this.projecti === "" || this.pname === "" || this.leader === "" || this.time === "" || this.deadline === ""){  
       alert("Complete todos los datos");}
       else{
-      let result = await axios.post("http://localhost:3000/projects",{
+      let result = await axios.post("http://18.212.204.173:3000/projects",{
         userid:this.id,
         projecti:this.projecti,
         pname:this.pname,

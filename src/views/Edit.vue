@@ -67,8 +67,7 @@ export default({
       this.$router.push({name:'Login'})
     }
 
-    const result = await axios.get('http://localhost:3000/projects/'+this.$route.params.id)
-    console.warn(result.data)
+    const result = await axios.get('http://18.212.204.173:3000/projects/'+this.$route.params.id)
     this.projects=result.data
     
 
@@ -90,7 +89,7 @@ export default({
     async editproject()
     {
       console.warn(this.projects)
-      const result = await axios.put("http://localhost:3000/projects/"+this.$route.params.id,{
+      const result = await axios.put("http://18.212.204.173:3000/projects/"+this.$route.params.id,{
       userid:this.id,
       projecti:this.projects.projecti,
       pname:this.projects.pname,

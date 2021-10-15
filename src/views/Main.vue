@@ -78,7 +78,7 @@ export default{
       this.$router.push({name:'Login'})
     },
     async deletep(id){
-      let result = await axios.delete("http://localhost:3000/projects/"+id);
+      let result = await axios.delete("http://18.212.204.173:3000/projects/"+id);
       console.warn(result)
       if(result.status==200)
       {
@@ -94,7 +94,7 @@ export default{
       }
       this.id=JSON.parse(id).id;
       this.name=JSON.parse(name).name;
-      let result = await axios.get(`http://localhost:3000/projects?userid=${this.id}`);
+      let result = await axios.get(`http://18.212.204.173:3000/projects?userid=${this.id}`);
       console.warn(result)
       this.projects=result.data;  
     }

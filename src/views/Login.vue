@@ -78,7 +78,7 @@ export default {
   }, 
   methods:{
     async login(){
-      let result = await axios.get(`http://localhost:3000/user?email=${this.email}&password=${this.password}`)
+      let result = await axios.get(`http://18.212.204.173:3000/user?email=${this.email}&password=${this.password}`)
            
       if(result.status==200 && result.data.length>0){
           localStorage.setItem("user-info",JSON.stringify(result.data[0]))
